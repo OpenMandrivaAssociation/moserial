@@ -8,7 +8,7 @@ Group:		Communications
 License:	GPLv3+
 URL:		http://live.gnome.org/moserial/
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
-Patch0:		moserial-3.0.2-str-fmt.patch
+#Patch0:		moserial-3.0.2-str-fmt.patch
 
 BuildRequires:	desktop-file-utils
 BuildRequires:	intltool
@@ -24,7 +24,7 @@ desktop. It is written in Vala for extra goodness.
 
 %prep
 %setup -q
-%patch0 -p0 -b .strfmt
+%apply_patches
 
 %build
 %configure2_5x
