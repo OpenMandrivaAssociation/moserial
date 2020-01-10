@@ -24,7 +24,7 @@ desktop. It is written in Vala for extra goodness.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %configure2_5x
