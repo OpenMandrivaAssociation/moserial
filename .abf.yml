@@ -1,4 +1,2 @@
-removed_sources:
-  moserial-3.0.5.tar.xz: 98491dc8cb9e20f8de7ee974ca1c42967c5f7d05
 sources:
-  moserial-3.0.8.tar.xz: b40266e038259cacab9c0890bac862c3f83b4084
+  moserial-3.0.13.tar.xz: 336298c7dc8737247a1fd0fb133fb2f06f5a039a
