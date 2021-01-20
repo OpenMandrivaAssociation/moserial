@@ -45,6 +45,5 @@ desktop-file-install \
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
-#{_datadir}/%{name}
 %{_mandir}/man1/%{name}*
-
+%{_datadir}/metainfo/moserial.appdata.xml
