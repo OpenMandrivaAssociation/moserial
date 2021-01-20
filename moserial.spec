@@ -28,11 +28,11 @@ desktop. It is written in Vala for extra goodness.
 %autopatch -p1
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 desktop-file-install \
 	--dir %{buildroot}%{_datadir}/applications \
@@ -41,10 +41,10 @@ desktop-file-install \
 %find_lang %{name} --with-gnome
 
 %files -f %{name}.lang
-%doc AUTHORS ChangeLog ChangeLog.pre-git MAINTAINERS NEWS
+%doc AUTHORS ChangeLog ChangeLog.pre-git NEWS
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
-%{_datadir}/%{name}
+#{_datadir}/%{name}
 %{_mandir}/man1/%{name}*
 
