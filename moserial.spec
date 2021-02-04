@@ -2,7 +2,7 @@
 
 Summary:	Serial terminal for the Gnome desktop
 Name:		moserial
-Version:	3.0.13
+Version:	3.0.15
 Release:	1
 Group:		Communications
 License:	GPLv3+
