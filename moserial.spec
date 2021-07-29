@@ -2,8 +2,8 @@
 
 Summary:	Serial terminal for the Gnome desktop
 Name:		moserial
-Version:	3.0.16
-Release:	2
+Version:	3.0.20
+Release:	1
 Group:		Communications
 License:	GPLv3+
 URL:		http://live.gnome.org/moserial/
