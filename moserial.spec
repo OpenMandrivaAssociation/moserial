@@ -6,7 +6,7 @@ Version:	3.0.21
 Release:	1
 Group:		Communications
 License:	GPLv3+
-URL:		http://live.gnome.org/moserial/
+URL:		https://live.gnome.org/moserial/
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 #Patch0:		moserial-3.0.2-str-fmt.patch
 
